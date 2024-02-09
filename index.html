@@ -1,0 +1,116 @@
+<!-- По классике первый сайт, который мы создаём в проекте, называется index.html -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <meta charset="UTF-8" />
+        <title>Ella CV</title>
+    </head>
+    <body>
+        <table cellspacing="15">
+            <tbody>
+                <tr>
+                    <td>
+                        <img
+                            src="index_files/bird.jpg"
+                            alt="Аватар"
+                            width="200"
+                        />
+                    </td>
+                    <td>
+                        <h1>Элла Белова</h1>
+                        <p>
+                            <em>
+                                Я студентка <strong>Степик-курсов</strong>.</em
+                            >
+                        </p>
+                        <p>
+                            <em
+                                >Я люблю ходить пешком, читать фэнтези и
+                                фантастику, заниматься самообразованием и
+                                программировать.</em
+                            >
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr />
+        <h2>Мои социальные сети</h2>
+        <ul type="square">
+            <li>
+                <a href="https://t.me/my_self_courses" target="_blank"
+                    >Телеграм</a
+                >
+            </li>
+            <li>
+                <a href="https://vk.com/student_ella" target="_blank"
+                    >ВКонтакте</a
+                >
+            </li>
+        </ul>
+        <hr />
+        <h2>Мои хобби</h2>
+        <ol>
+            <li>Питон для начинающих</li>
+            <li>Питон для продвинутых</li>
+            <li>Питон для профессионалов</li>
+            <li>ООП</li>
+        </ol>
+        <hr />
+        <h2>Обучение</h2>
+        <table cellspacing="15">
+            <thead>
+                <tr>
+                    <th>Course</th>
+                    <th>start</th>
+                    <th>end</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Курс для начинающих</td>
+                    <td>авг, 23</td>
+                    <td>сент, 23</td>
+                </tr>
+                <tr>
+                    <td>Курс для продвинутых</td>
+                    <td>окт, 23</td>
+                    <td>дек, 23</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Итого</th>
+                    <td>1 семестр</td>
+                    <td>2 курса</td>
+                </tr>
+            </tfoot>
+        </table>
+        <hr />
+        <h2>Курсы, которые я хочу пройти</h2>
+        <p>
+            <a href="http://127.0.0.1:5500/next_courses.html" target="_blank"
+                >Посмотреть список</a
+            >
+        </p>
+        <hr />
+        <h2>Связаться со мной</h2>
+        <form action="/">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" placeholder="Введите имя..." />
+            <br />
+            <br />
+            <label for="email">Ваш Email:</label>
+            <input type="text" id="email" value="test@mail.ru" />
+            <br />
+            <br />
+            <label for="message">Ваше сообщение:</label>
+            <textarea id="message" rows="3" cols="20"></textarea>
+            <br />
+            <br />
+            <input type="submit" value="Связаться!" />
+        </form>
+    </body>
+</html>
